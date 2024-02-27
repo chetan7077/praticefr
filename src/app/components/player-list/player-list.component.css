@@ -1,0 +1,45 @@
+.panel-primary {
+    border-color: #337ab7;
+}
+
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.table {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 100%;
+    margin: 10px auto; /* Center the table on the page */
+    border: 1px solid #ddd; /* Add border to the table */
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border: 1px solid #ddd; /* Add border to table cells */
+    text-align: left;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #fff;
+}
+
+.btn-danger,
+.btn-info {
+    margin-left: 10px;
+}

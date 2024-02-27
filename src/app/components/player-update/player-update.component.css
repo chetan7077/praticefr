@@ -1,0 +1,51 @@
+/* Add some spacing and styling to the form container */
+div {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center; /* Center-align the content */
+    background-color: lightcyan;
+  }
+  
+  /* Style form labels and input fields */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 3px;
+  }
+  
+  /* Style the submit button */
+  button {
+    display: inline-block;
+    margin-top: 10px; /* Add margin to the top for spacing */
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #28a745; /* Bootstrap success button color */
+    color: #fff;
+    border: 1px solid #218838; /* Bootstrap success button border color */
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Add some spacing between elements */
+  br {
+    margin-bottom: 10px;
+  }
+  
